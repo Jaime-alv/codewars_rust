@@ -3,3 +3,4 @@ pub mod divisible_by;
 pub mod even_or_odd;
 pub mod add_length;
 pub mod parse_boolean;
+mod remove_string_spaces;
