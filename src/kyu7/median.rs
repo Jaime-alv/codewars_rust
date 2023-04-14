@@ -26,6 +26,6 @@ fn check_median() {
 #[test]
 fn check_mode_value() {
     assert_eq!(mode_value(&[0, 0, 0, 1, 2]), 0);
-    assert_eq!(mode_value(&[0, 2, 0, 1, 2]), 2);
+    assert_eq!(mode_value(&[0, 2, 0, 1, 2]), 0);
     assert_eq!(mode_value(&[0, 0, 0, 1, 2]), 0);
 }

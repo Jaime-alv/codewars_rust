@@ -1,1 +1,3 @@
 pub mod if_you_can_read_this;
+pub mod character_with_longest_repetition;
+mod all_star_code_challenge;
